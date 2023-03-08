@@ -1,0 +1,361 @@
+    /* kodingan index */
+    *{margin: 0;
+        padding: 0; 
+    box-sizing: border-box;}
+    body {
+    font-family: 'quicksand'; 
+    text-align: center;
+    }
+
+    /* bagian navbar nya */
+    nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    top: 0;
+    margin-bottom: 0px;
+    /* position: fixed; */
+    width: 99%; 
+    padding: 0 2px 0 0;
+    }
+    
+    /* navbar posisi textnya */
+    nav li {
+    float: right;
+    margin-left: 10px;
+    }
+    
+    /* bagian logo ourpets */
+    nav ul a{
+    float: left;
+    margin-left: 10px;
+    padding-bottom: 15px;
+    }
+
+    /* link navbar */
+    nav li a {
+    font-family: verdana;
+    font-size: 14px;
+    color:#ffffff;
+    text-align: left;
+    padding: 29px 40px 15px 5px;
+    text-decoration: underline;
+    }
+    
+    /* buat bayang-bayang pas dipencet */
+    nav li a:hover {
+    opacity:1;
+    background-color: #0e1d33;
+    transition-duration: 0,2;
+    }
+    
+    /* bagian isi konten */
+    article h1{
+    width: 80%;
+    margin: 0px 5px 0px 5px;
+    clear: both;
+    color: rgb(23, 23, 23);
+    font-family: 'quicksand';
+    text-align: center;
+    margin:auto;
+    padding: 0px;
+    }
+
+    article h2{
+        font-size: 20px;
+        width: 80%;
+        margin: 0px 5px 0px 5px;
+        clear: both;
+        color: rgb(28, 27, 27);
+        font-family: 'quicksand';
+        text-align: center;
+        margin:auto;
+        padding: 0px;
+        }
+
+    article a{
+        background-color: rgb(75, 65, 59);
+        width: 20px;
+        margin-top: 15px;
+        padding: 10px 20px 10px 20px;
+        color: white;
+    }
+    
+
+    /* bagian credit */
+    footer {
+    font-size: small;
+    font-family: 'quicksand';
+    width: 100%;
+    text-align: center;
+    margin-top: 380px;
+    }
+/* batas kodingan index */
+
+
+/* ini kodingan starthere */
+        .row {  
+            /* display: -ms-flexbox; */
+            display: flex;
+            -ms-flex-wrap: wrap; 
+            flex-wrap: wrap;
+            /* position: absolute; */
+          } 
+          .side {
+            -ms-flex: 30%; /* IE10 */
+            flex: 30%;
+            background-color: #ECF2FD;
+            padding: 20px;
+        }
+
+            
+            .main {   
+                /* -ms-flex: 70%; */
+                flex: 70%;
+                background-color: #ECF2FD;
+                padding: 40px;
+                width: 20px;
+                text-align: center;
+              }
+              
+              .container3{
+                background-color: #3D679B;
+                /* position: absolute; */
+                text-align: center;
+            }
+
+            .right1 {
+                display: flex;
+                 flex: 1;
+                text-align: center;
+                max-height: fit-content;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            /* ini teks buttonnya sama ukuran background input */
+            .right-container1 {
+                text-align: center;
+                width: 40%;
+                /* height: 80%; */
+            }
+              
+            
+              /* Footer */
+              .fs{
+                /* padding: 20px; */
+                text-align: center;
+                font-size: small;
+    font-family: 'quicksand';
+    width: 100%;
+    text-align: center;
+
+                
+              }
+              
+              /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+              /* @media screen and (max-width: 700px) {
+                .row {   
+                  flex-direction: column;
+                }
+              } */
+              
+              /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+              /* @media screen and (max-width: 400px) {
+                .navbar a {
+                  float: none;
+                  width: 100%;
+                }
+              } */
+/* batas kodingan starthere */
+
+
+/* ini kodingan about us */ 
+    html {
+        box-sizing: border-box;
+    }
+    
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+    
+    .column {
+        float: left;
+        width: 33%;
+        margin-bottom: 0px;
+        padding: 0 0px 1cm 10px;
+    }
+    
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+    }
+    
+    .about-section {
+        /* margin-top: 35px; */
+        padding: 25px 50px 25px 50px;
+        text-align: center;
+        background-color: #3D679B;
+        color: white;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        /* background-color: rgb(75, 65, 59); */
+        text-align: center;
+        /* cursor: pointer; */
+        width: 100%;
+    }
+    
+    .button:hover {
+        background-color: #555;
+    }
+    
+    /* @media screen and (max-width: 500px) {
+        body {
+        width: 100%;
+        display: block;
+        min-height: 1000px;
+        }} */
+
+    /* bagian credit */
+    .fa {
+    font-size: small;
+    font-family: 'quicksand';
+    /* width: 1200px; */
+    /* text-align: center;
+    margin-top: 100px; */
+    }
+
+/* batas kodingan about us */
+
+
+/* ini kodingan contact */
+
+
+.container2{
+    background-color: #ffffff;
+    /* position: absolute; */
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    height: 460px;
+    background-color: #3D679B;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    height: 460px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex: 1;
+    height: 522px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+.left-container {
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    line-height: 22px;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.right-container {
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+input,
+textarea {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #3D679B;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid rgb(75, 65, 59);
+    background-color: rgb(75, 65, 59);
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+textarea {
+    height: 90px;
+}
+
+@media only screen and (max-width: 600px){
+    .left {
+        display: none;
+    }
+
+    .lg-view {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .sm-view {
+        display: none;
+    }
+}
+
+/* bagian credit */
+.fc {
+    font-size: small;
+    font-family: 'quicksand';
+    width: 1250px;
+    text-align: center;
+    /* margin-top: 5px; */
+    }
+    footer .foot{
+        padding: 10px 0px 10px 80px;
+    }
+/* batas kodingan contact */
